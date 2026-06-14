@@ -83,5 +83,13 @@ See `framework/README.md` for the full API and architecture.
 FastAPI · React 19 · Vite · Recharts · scikit-learn / statsmodels (model training) ·
 FAISS · sentence-transformers (all-MiniLM-L6-v2).
 
+## Full Experiment Repository
+
+The complete experimental pipeline (data collection, RQ1–RQ4 experiments, statistical analysis, and all results) is available at:
+
+👉 **[rag-performance-framework-v2](https://github.com/novasingh/rag-performance-framework-v2)**
+
+---
+
 ## License
 Released for academic and research use.
