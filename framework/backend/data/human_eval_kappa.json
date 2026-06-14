@@ -1,0 +1,11 @@
+{
+  "cohen_kappa": {
+    "relevance": 0.9776,
+    "correctness": 0.9774,
+    "freshness": 0.9651,
+    "hallucination": 0.7639
+  },
+  "mean_kappa": 0.921,
+  "threshold": 0.7,
+  "threshold_met": true
+}
