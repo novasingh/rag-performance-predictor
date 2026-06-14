@@ -52,8 +52,6 @@ rag-performance-predictor/
 │   ├── backend/         # core/ (predictor, recommender) + data/ (bundled model & metrics)
 │   ├── frontend/        # React + Vite + Recharts UI
 │   └── README.md        # framework-specific docs
-├── docs/
-│   └── PROJECT_DEVELOPMENT_PLAN.md   # full end-to-end development report
 └── screenshots/         # UI screenshots
 ```
 
@@ -77,9 +75,7 @@ chmod +x run-macos.sh && ./run-macos.sh
 - Backend → http://localhost:8000 (API docs at `/docs`)
 - Frontend → http://localhost:3000
 
-See `framework/README.md` for the full API and architecture, and
-`docs/PROJECT_DEVELOPMENT_PLAN.md` for how the data, experiments (RQ1–RQ4), and model
-were built.
+See `framework/README.md` for the full API and architecture.
 
 ---
 
