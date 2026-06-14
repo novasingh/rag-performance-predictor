@@ -9,6 +9,28 @@ It packages the validated predictive model from the master's dissertation
 *"A Framework for Predicting Retrieval-Augmented Generation System Performance Based on
 Relevant Factors"* (Akashdeep Singh) into an interactive web app.
 
+---
+
+## Screenshots
+
+| Research Overview | Prediction Tool |
+|---|---|
+| ![Research Overview](screenshots/research-overview.png) | ![Prediction Tool](screenshots/prediction-tool.png) |
+
+| Deployment Guide | Domain Dashboard |
+|---|---|
+| ![Deployment Guide](screenshots/deployment-guide.png) | ![Domain Dashboard](screenshots/domain-dashboard.png) |
+
+| Source Impact | Freshness Impact |
+|---|---|
+| ![Source Impact](screenshots/source-impact.png) | ![Freshness Impact](screenshots/freshness-impact.png) |
+
+| Validation (RQ4) |
+|---|
+| ![Validation](screenshots/validation.png) |
+
+---
+
 ## What it does
 
 Pick a domain, a freshness level, and a source mix, and the app returns:
@@ -20,18 +42,22 @@ Pick a domain, a freshness level, and a source mix, and the app returns:
 It also surfaces the evidence: per-condition metrics, source/freshness impact, model
 comparison, and validation / boundary conditions.
 
+---
+
 ## Repository layout
 
 ```
 rag-performance-predictor/
-├── framework/        # the deployable app (FastAPI backend + React 19 frontend)
-│   ├── backend/      # core/ (predictor, recommender) + data/ (bundled model & metrics)
-│   ├── frontend/     # React + Vite + Recharts UI
-│   └── README.md     # framework-specific docs
-└── docs/
-    ├── PROJECT_DEVELOPMENT_PLAN.md   # full end-to-end development report
-    └── Report.pdf                    # dissertation report
+├── framework/           # the deployable app (FastAPI backend + React 19 frontend)
+│   ├── backend/         # core/ (predictor, recommender) + data/ (bundled model & metrics)
+│   ├── frontend/        # React + Vite + Recharts UI
+│   └── README.md        # framework-specific docs
+├── docs/
+│   └── PROJECT_DEVELOPMENT_PLAN.md   # full end-to-end development report
+└── screenshots/         # UI screenshots
 ```
+
+---
 
 ## Quick start
 
@@ -54,6 +80,8 @@ chmod +x run-macos.sh && ./run-macos.sh
 See `framework/README.md` for the full API and architecture, and
 `docs/PROJECT_DEVELOPMENT_PLAN.md` for how the data, experiments (RQ1–RQ4), and model
 were built.
+
+---
 
 ## Tech stack
 FastAPI · React 19 · Vite · Recharts · scikit-learn / statsmodels (model training) ·
