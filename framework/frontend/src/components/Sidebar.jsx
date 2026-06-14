@@ -16,8 +16,7 @@ export function Sidebar({ active, onNavigate, dark, onToggleTheme }) {
   return (
     <aside className="sidebar">
       <div className="sidebar-header">
-        <div className="brand-badge">🧭</div>
-        <h1>RAG Performance Prediction Framework</h1>
+        <h1>RAG Predictor</h1>
         <p>Predicting RAG effectiveness from dataset-level factors</p>
       </div>
 
